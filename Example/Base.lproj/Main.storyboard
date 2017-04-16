@@ -1,14 +1,18 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Example" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -16,8 +20,55 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TTP-Z3-3R7" customClass="BPCircleActivityIndicator" customModule="BPCircleActivityIndicator">
+                                <rect key="frame" x="172" y="318" width="30" height="30"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="30" id="9jj-b6-Qtw"/>
+                                    <constraint firstAttribute="height" constant="30" id="UOV-vE-eBD"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hDc-Cd-Q6r">
+                                <rect key="frame" x="152" y="408" width="70" height="30"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="QJg-MF-btR"/>
+                                    <constraint firstAttribute="width" constant="70" id="nQ5-yM-o4a"/>
+                                </constraints>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="stop"/>
+                                <connections>
+                                    <action selector="stopButtonTappedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="teP-0t-DhT"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UYH-HU-fyw">
+                                <rect key="frame" x="152" y="368" width="70" height="30"/>
+                                <color key="backgroundColor" red="0.0" green="0.78039215689999997" blue="0.23529411759999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="PGJ-hf-2K5"/>
+                                    <constraint firstAttribute="width" constant="70" id="pz5-Zp-819"/>
+                                </constraints>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="start"/>
+                                <connections>
+                                    <action selector="startButtonTappedWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DE8-Pr-rLf"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="UYH-HU-fyw" firstAttribute="top" secondItem="TTP-Z3-3R7" secondAttribute="bottom" constant="20" id="ETe-ik-FC9"/>
+                            <constraint firstItem="UYH-HU-fyw" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="SKk-nz-kWv"/>
+                            <constraint firstItem="TTP-Z3-3R7" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="hWg-p6-Z5w"/>
+                            <constraint firstItem="hDc-Cd-Q6r" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="iFt-kT-M9w"/>
+                            <constraint firstItem="hDc-Cd-Q6r" firstAttribute="top" secondItem="UYH-HU-fyw" secondAttribute="bottom" constant="10" id="jyS-mc-dHA"/>
+                            <constraint firstItem="TTP-Z3-3R7" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="kwI-Ew-xYk"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="circleIndicator" destination="TTP-Z3-3R7" id="ibu-Yl-zgW"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

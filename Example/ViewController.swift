@@ -10,11 +10,20 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    @IBOutlet weak var circleIndicator: BPCircleActivityIndicator!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
+    
+    @IBAction func startButtonTapped(sender: UIButton) {
+        circleIndicator
+            .rotateSpeed(speed: 0.6)
+            .interval(interval: 0.3)
+            .animate()
+    }
+    
+    @IBAction func stopButtonTapped(sender: UIButton) {
+        circleIndicator.stop()
     }
 }
