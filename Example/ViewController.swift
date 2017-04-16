@@ -18,8 +18,8 @@ class ViewController: UIViewController {
     
     @IBAction func startButtonTapped(sender: UIButton) {
         circleIndicator
-            .rotateSpeed(speed: 0.6)
-            .interval(interval: 0.3)
+            .rotateSpeed(0.6)
+            .interval(0.3)
             .animate()
     }
     

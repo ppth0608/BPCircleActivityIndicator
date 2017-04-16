@@ -25,12 +25,12 @@ public class BPCircleActivityIndicator: UIView {
         setupLayer()
     }
     
-    public func rotateSpeed(speed: Double) -> Self {
+    public func rotateSpeed(_ speed: Double) -> Self {
         self.rotateSpeed = speed
         return self
     }
     
-    public func interval(interval: Double) -> Self {
+    public func interval(_ interval: Double) -> Self {
         self.interval = interval
         return self
     }
