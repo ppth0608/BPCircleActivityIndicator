@@ -1,10 +1,8 @@
 Pod::Spec.new do |s|
   s.name         = "BPCircleActivityIndicator"
   s.version      = "0.1"
-  s.summary      = ""
-  s.description  = <<-DESC
-    Your description here.
-  DESC
+  s.summary      = "Circle Activity Indicator that display the progress of an ongoing task on iOS"
+  s.description  = "BPCircleActivityIndicator is a clean and easy-to-use Activity Indicator meant to display the progress of an ongoing task on iOS."
   s.homepage     = "https://github.com/ppth0608/BPCircleActivityIndicator"
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author             = { "Ben.Park" => "ppth0608@naver.com" }
