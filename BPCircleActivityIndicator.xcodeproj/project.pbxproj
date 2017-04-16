@@ -24,6 +24,7 @@
 		4AB954281EA3603600A32089 /* CommonAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB954131EA3603600A32089 /* CommonAnimation.swift */; };
 		4AB954291EA3603600A32089 /* CommonAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB954131EA3603600A32089 /* CommonAnimation.swift */; };
 		4AB954301EA3BD4500A32089 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AB9542F1EA3BD4500A32089 /* UIKit.framework */; };
+		4AB954311EA3C12F00A32089 /* UIKit.framework in Resources */ = {isa = PBXBuildFile; fileRef = 4AB9542F1EA3BD4500A32089 /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -262,6 +263,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AB954311EA3C12F00A32089 /* UIKit.framework in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
