@@ -13,5 +13,5 @@ Pod::Spec.new do |s|
   s.tvos.deployment_target = "9.0"
   s.source       = { :git => "https://github.com/ppth0608/BPCircleActivityIndicator.git", :tag => s.version.to_s }
   s.source_files  = "Sources/**/*"
-  s.frameworks  = "Foundation"
+  s.frameworks  = "UIKit"
 end
