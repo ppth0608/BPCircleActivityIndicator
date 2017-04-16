@@ -12,6 +12,32 @@
 		4AB953E01EA3358C00A32089 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AB953DE1EA3358C00A32089 /* Main.storyboard */; };
 		4AB953E21EA3358C00A32089 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AB953E11EA3358C00A32089 /* Assets.xcassets */; };
 		4AB953E51EA3358C00A32089 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AB953E31EA3358C00A32089 /* LaunchScreen.storyboard */; };
+		4AB9540D1EA356E100A32089 /* BPCircleActivityIndicator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D6D97C1BEFF229002C0205 /* BPCircleActivityIndicator.framework */; };
+		4AB954141EA3603600A32089 /* BPCircleActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB9540F1EA3603600A32089 /* BPCircleActivityIndicator.swift */; };
+		4AB954151EA3603600A32089 /* BPCircleActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB9540F1EA3603600A32089 /* BPCircleActivityIndicator.swift */; };
+		4AB954161EA3603600A32089 /* BPCircleActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB9540F1EA3603600A32089 /* BPCircleActivityIndicator.swift */; };
+		4AB954171EA3603600A32089 /* BPCircleActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB9540F1EA3603600A32089 /* BPCircleActivityIndicator.swift */; };
+		4AB954181EA3603600A32089 /* BPCircleActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB9540F1EA3603600A32089 /* BPCircleActivityIndicator.swift */; };
+		4AB954191EA3603600A32089 /* CircleLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB954101EA3603600A32089 /* CircleLayer.swift */; };
+		4AB9541A1EA3603600A32089 /* CircleLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB954101EA3603600A32089 /* CircleLayer.swift */; };
+		4AB9541B1EA3603600A32089 /* CircleLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB954101EA3603600A32089 /* CircleLayer.swift */; };
+		4AB9541C1EA3603600A32089 /* CircleLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB954101EA3603600A32089 /* CircleLayer.swift */; };
+		4AB9541D1EA3603600A32089 /* CircleLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB954101EA3603600A32089 /* CircleLayer.swift */; };
+		4AB9541E1EA3603600A32089 /* CircleLotateLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB954111EA3603600A32089 /* CircleLotateLayer.swift */; };
+		4AB9541F1EA3603600A32089 /* CircleLotateLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB954111EA3603600A32089 /* CircleLotateLayer.swift */; };
+		4AB954201EA3603600A32089 /* CircleLotateLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB954111EA3603600A32089 /* CircleLotateLayer.swift */; };
+		4AB954211EA3603600A32089 /* CircleLotateLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB954111EA3603600A32089 /* CircleLotateLayer.swift */; };
+		4AB954221EA3603600A32089 /* CircleLotateLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB954111EA3603600A32089 /* CircleLotateLayer.swift */; };
+		4AB954231EA3603600A32089 /* CircleLotationSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB954121EA3603600A32089 /* CircleLotationSet.swift */; };
+		4AB954241EA3603600A32089 /* CircleLotationSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB954121EA3603600A32089 /* CircleLotationSet.swift */; };
+		4AB954251EA3603600A32089 /* CircleLotationSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB954121EA3603600A32089 /* CircleLotationSet.swift */; };
+		4AB954261EA3603600A32089 /* CircleLotationSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB954121EA3603600A32089 /* CircleLotationSet.swift */; };
+		4AB954271EA3603600A32089 /* CircleLotationSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB954121EA3603600A32089 /* CircleLotationSet.swift */; };
+		4AB954281EA3603600A32089 /* CommonAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB954131EA3603600A32089 /* CommonAnimation.swift */; };
+		4AB954291EA3603600A32089 /* CommonAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB954131EA3603600A32089 /* CommonAnimation.swift */; };
+		4AB9542A1EA3603600A32089 /* CommonAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB954131EA3603600A32089 /* CommonAnimation.swift */; };
+		4AB9542B1EA3603600A32089 /* CommonAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB954131EA3603600A32089 /* CommonAnimation.swift */; };
+		4AB9542C1EA3603600A32089 /* CommonAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB954131EA3603600A32089 /* CommonAnimation.swift */; };
 		52D6D9871BEFF229002C0205 /* BPCircleActivityIndicator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D6D97C1BEFF229002C0205 /* BPCircleActivityIndicator.framework */; };
 		DD7502881C68FEDE006590AF /* BPCircleActivityIndicator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D6DA0F1BF000BD002C0205 /* BPCircleActivityIndicator.framework */; };
 		DD7502921C690C7A006590AF /* BPCircleActivityIndicator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D6D9F01BEFFFBE002C0205 /* BPCircleActivityIndicator.framework */; };
@@ -49,6 +75,11 @@
 		4AB953E11EA3358C00A32089 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4AB953E41EA3358C00A32089 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4AB953E61EA3358C00A32089 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AB9540F1EA3603600A32089 /* BPCircleActivityIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BPCircleActivityIndicator.swift; sourceTree = "<group>"; };
+		4AB954101EA3603600A32089 /* CircleLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleLayer.swift; sourceTree = "<group>"; };
+		4AB954111EA3603600A32089 /* CircleLotateLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleLotateLayer.swift; sourceTree = "<group>"; };
+		4AB954121EA3603600A32089 /* CircleLotationSet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleLotationSet.swift; sourceTree = "<group>"; };
+		4AB954131EA3603600A32089 /* CommonAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonAnimation.swift; sourceTree = "<group>"; };
 		52D6D97C1BEFF229002C0205 /* BPCircleActivityIndicator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BPCircleActivityIndicator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		52D6D9861BEFF229002C0205 /* BPCircleActivityIndicator-iOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BPCircleActivityIndicator-iOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		52D6D9E21BEFFF6E002C0205 /* BPCircleActivityIndicator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BPCircleActivityIndicator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -65,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AB9540D1EA356E100A32089 /* BPCircleActivityIndicator.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,14 +171,27 @@
 		4AB953EC1EA335A900A32089 /* Framework */ = {
 			isa = PBXGroup;
 			children = (
-				4AB953EE1EA33DAB00A32089 /* BPCircleActivityIndicator */,
+				4AB9540E1EA3603600A32089 /* Sources */,
 			);
 			name = Framework;
 			sourceTree = "<group>";
 		};
-		4AB953EE1EA33DAB00A32089 /* BPCircleActivityIndicator */ = {
+		4AB9540E1EA3603600A32089 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				4AB9542D1EA3604F00A32089 /* BPCircleActivityIndicator */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		4AB9542D1EA3604F00A32089 /* BPCircleActivityIndicator */ = {
+			isa = PBXGroup;
+			children = (
+				4AB9540F1EA3603600A32089 /* BPCircleActivityIndicator.swift */,
+				4AB954111EA3603600A32089 /* CircleLotateLayer.swift */,
+				4AB954101EA3603600A32089 /* CircleLayer.swift */,
+				4AB954121EA3603600A32089 /* CircleLotationSet.swift */,
+				4AB954131EA3603600A32089 /* CommonAnimation.swift */,
 			);
 			name = BPCircleActivityIndicator;
 			sourceTree = "<group>";
@@ -395,7 +440,7 @@
 					};
 					52D6D97B1BEFF229002C0205 = {
 						CreatedOnToolsVersion = 7.1;
-						LastSwiftMigration = 0800;
+						LastSwiftMigration = 0830;
 					};
 					52D6D9851BEFF229002C0205 = {
 						CreatedOnToolsVersion = 7.1;
@@ -403,15 +448,15 @@
 					};
 					52D6D9E11BEFFF6E002C0205 = {
 						CreatedOnToolsVersion = 7.1;
-						LastSwiftMigration = 0800;
+						LastSwiftMigration = 0830;
 					};
 					52D6D9EF1BEFFFBE002C0205 = {
 						CreatedOnToolsVersion = 7.1;
-						LastSwiftMigration = 0800;
+						LastSwiftMigration = 0830;
 					};
 					52D6DA0E1BF000BD002C0205 = {
 						CreatedOnToolsVersion = 7.1;
-						LastSwiftMigration = 0800;
+						LastSwiftMigration = 0830;
 					};
 					DD7502791C68FCFC006590AF = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -436,6 +481,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				4AB953D71EA3358C00A32089 /* Example */,
 				52D6D97B1BEFF229002C0205 /* BPCircleActivityIndicator-iOS */,
 				52D6DA0E1BF000BD002C0205 /* BPCircleActivityIndicator-macOS */,
 				52D6D9E11BEFFF6E002C0205 /* BPCircleActivityIndicator-watchOS */,
@@ -443,7 +489,6 @@
 				52D6D9851BEFF229002C0205 /* BPCircleActivityIndicator-iOS Tests */,
 				DD7502791C68FCFC006590AF /* BPCircleActivityIndicator-macOS Tests */,
 				DD75028C1C690C7A006590AF /* BPCircleActivityIndicator-tvOS Tests */,
-				4AB953D71EA3358C00A32089 /* Example */,
 			);
 		};
 /* End PBXProject section */
@@ -515,8 +560,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AB954141EA3603600A32089 /* BPCircleActivityIndicator.swift in Sources */,
+				4AB954231EA3603600A32089 /* CircleLotationSet.swift in Sources */,
 				4AB953DD1EA3358C00A32089 /* ViewController.swift in Sources */,
+				4AB954191EA3603600A32089 /* CircleLayer.swift in Sources */,
+				4AB9541E1EA3603600A32089 /* CircleLotateLayer.swift in Sources */,
 				4AB953DB1EA3358C00A32089 /* AppDelegate.swift in Sources */,
+				4AB954281EA3603600A32089 /* CommonAnimation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -524,6 +574,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AB954151EA3603600A32089 /* BPCircleActivityIndicator.swift in Sources */,
+				4AB9541F1EA3603600A32089 /* CircleLotateLayer.swift in Sources */,
+				4AB954291EA3603600A32089 /* CommonAnimation.swift in Sources */,
+				4AB9541A1EA3603600A32089 /* CircleLayer.swift in Sources */,
+				4AB954241EA3603600A32089 /* CircleLotationSet.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -538,6 +593,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AB954171EA3603600A32089 /* BPCircleActivityIndicator.swift in Sources */,
+				4AB954211EA3603600A32089 /* CircleLotateLayer.swift in Sources */,
+				4AB9542B1EA3603600A32089 /* CommonAnimation.swift in Sources */,
+				4AB9541C1EA3603600A32089 /* CircleLayer.swift in Sources */,
+				4AB954261EA3603600A32089 /* CircleLotationSet.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -545,6 +605,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AB954181EA3603600A32089 /* BPCircleActivityIndicator.swift in Sources */,
+				4AB954221EA3603600A32089 /* CircleLotateLayer.swift in Sources */,
+				4AB9542C1EA3603600A32089 /* CommonAnimation.swift in Sources */,
+				4AB9541D1EA3603600A32089 /* CircleLayer.swift in Sources */,
+				4AB954271EA3603600A32089 /* CircleLotationSet.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -552,6 +617,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AB954161EA3603600A32089 /* BPCircleActivityIndicator.swift in Sources */,
+				4AB954201EA3603600A32089 /* CircleLotateLayer.swift in Sources */,
+				4AB9542A1EA3603600A32089 /* CommonAnimation.swift in Sources */,
+				4AB9541B1EA3603600A32089 /* CircleLayer.swift in Sources */,
+				4AB954251EA3603600A32089 /* CircleLotationSet.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -788,6 +858,7 @@
 		52D6D9941BEFF229002C0205 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Configs/BPCircleActivityIndicatorTests.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -801,6 +872,7 @@
 		52D6D9951BEFF229002C0205 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Configs/BPCircleActivityIndicatorTests.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -815,6 +887,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -827,6 +900,7 @@
 				PRODUCT_NAME = BPCircleActivityIndicator;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 2.0;
@@ -837,6 +911,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -860,6 +935,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -872,6 +948,7 @@
 				PRODUCT_NAME = BPCircleActivityIndicator;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
@@ -882,6 +959,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -905,6 +983,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
@@ -920,6 +999,7 @@
 				PRODUCT_NAME = BPCircleActivityIndicator;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -928,6 +1008,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
@@ -951,6 +1032,7 @@
 		DD7502831C68FCFC006590AF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = Configs/BPCircleActivityIndicatorTests.plist;
@@ -966,6 +1048,7 @@
 		DD7502841C68FCFC006590AF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = Configs/BPCircleActivityIndicatorTests.plist;
@@ -982,6 +1065,7 @@
 		DD7502961C690C7A006590AF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = Configs/BPCircleActivityIndicatorTests.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.BPCircleActivityIndicator.BPCircleActivityIndicator-tvOS-Tests";
@@ -995,6 +1079,7 @@
 		DD7502971C690C7A006590AF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = Configs/BPCircleActivityIndicatorTests.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.BPCircleActivityIndicator.BPCircleActivityIndicator-tvOS-Tests";
@@ -1016,6 +1101,7 @@
 				4AB953E91EA3358C00A32089 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		52D6D9761BEFF229002C0205 /* Build configuration list for PBXProject "BPCircleActivityIndicator" */ = {
 			isa = XCConfigurationList;
