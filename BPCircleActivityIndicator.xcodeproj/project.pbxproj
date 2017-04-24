@@ -23,8 +23,6 @@
 		4AB954241EA3603600A32089 /* CircleLotationSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB954121EA3603600A32089 /* CircleLotationSet.swift */; };
 		4AB954281EA3603600A32089 /* CommonAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB954131EA3603600A32089 /* CommonAnimation.swift */; };
 		4AB954291EA3603600A32089 /* CommonAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB954131EA3603600A32089 /* CommonAnimation.swift */; };
-		4AB954301EA3BD4500A32089 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AB9542F1EA3BD4500A32089 /* UIKit.framework */; };
-		4AB954311EA3C12F00A32089 /* UIKit.framework in Resources */ = {isa = PBXBuildFile; fileRef = 4AB9542F1EA3BD4500A32089 /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,7 +38,6 @@
 		4AB954111EA3603600A32089 /* CircleLotateLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleLotateLayer.swift; sourceTree = "<group>"; };
 		4AB954121EA3603600A32089 /* CircleLotationSet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleLotationSet.swift; sourceTree = "<group>"; };
 		4AB954131EA3603600A32089 /* CommonAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonAnimation.swift; sourceTree = "<group>"; };
-		4AB9542F1EA3BD4500A32089 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		52D6D97C1BEFF229002C0205 /* BPCircleActivityIndicator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BPCircleActivityIndicator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD2FAA261CD0B6D800659CF4 /* BPCircleActivityIndicator.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = BPCircleActivityIndicator.plist; sourceTree = "<group>"; };
 		AD2FAA281CD0B6E100659CF4 /* BPCircleActivityIndicatorTests.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = BPCircleActivityIndicatorTests.plist; sourceTree = "<group>"; };
@@ -59,7 +56,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4AB954301EA3BD4500A32089 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,7 +106,6 @@
 		4AB9542E1EA3BD4500A32089 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				4AB9542F1EA3BD4500A32089 /* UIKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -263,7 +258,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4AB954311EA3C12F00A32089 /* UIKit.framework in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
